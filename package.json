@@ -1,0 +1,36 @@
+{
+    "name": "cloud-arch",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "webpack --mode production",
+        "start": "webpack-dev-server --mode development --open"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@angular/common": "^8.2.7",
+        "@angular/compiler": "^8.2.7",
+        "@angular/core": "^8.2.7",
+        "@angular/forms": "^8.2.7",
+        "@angular/platform-browser": "^8.2.7",
+        "@angular/platform-browser-dynamic": "^8.2.7",
+        "@angular/router": "^8.2.7",
+        "core-js": "^3.2.1",
+        "rxjs": "^6.5.3",
+        "zone.js": "^0.9.1"
+    },
+    "devDependencies": {
+        "@types/node": "^12.7.5",
+        "angular2-template-loader": "^0.6.2",
+        "css-loader": "^2.1.1",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "less": "^3.10.3",
+        "less-loader": "^5.0.0",
+        "style-loader": "^0.23.1",
+        "ts-loader": "^6.1.0",
+        "typescript": "^3.6.3",
+        "webpack": "^4.40.2",
+        "webpack-cli": "^3.3.9",
+        "webpack-dev-server": "^3.8.1"
+    }
+}
